@@ -1,0 +1,17 @@
+users: 
+  radiusadmin: 
+    password: admin123
+    role: administrator
+  radiusoper:
+    password: oper123
+    role: operator
+    
+hosts: 
+  192.168.0.1:
+    name: rtr1 
+    key: radius123 
+    device_type: cisco-ios
+  192.168.0.2:
+    name: nexus1
+    key: radius123 
+    device_type: cisco-nexus
